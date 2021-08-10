@@ -19,6 +19,7 @@ Additionally, we have used 3 push buttons to control the music playback. Play / 
 We have to convert our audio / music files to WAV format i.e. they should be .wav files. This is because, the supporting libraries. So, our first step is to convert mp3 files to .wav files. For this we can use any audio converter software.
 We have to follow the following steps given below to make songs compatible with your Arduino audio player: 
 Upload a music file or enter a link for the song or audio file to be converted. 
+
 1.	In optional settings, change bit resolution to 8 bits.
 2.	Change sampling rate to 16000 Hz.
 3.	Change audio channels to Mono.
@@ -27,3 +28,5 @@ Upload a music file or enter a link for the song or audio file to be converted.
  After making the above-mentioned changes, file will be converted and it’ll be compatible with Arduino. The second important thing is to add a special library called TMRpcm. This project also requires SPI and SD libraries. These are built-in libraries.
 We have to format the microSD Card as FAT using any formatting software like SD Memory Card Formatter and copy all the WAV audio files to the card. Insert the card into the slot on the SD Card Module and make all the necessary connections. 
 Then we Connect Arduino UNO to computer and in the Arduino IDE, and write the code. We have named all the audio files as song1.wav, song2.wav, etc. and used the same names in the function. 
+
+![image](https://user-images.githubusercontent.com/61411787/128813475-fe16d228-9e19-4182-b6f6-90db5070d057.png)
